@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de filmes.</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css"><link>
+</head>
+<body>
+    <main class="container">
+    <h2>Cadastro de Filmes: </h2>
+    <input type="text" id="titulo" placeholder="Digite um titulo">
+    <input type="number" id="ano" placeholder="Digite o ano">
+    <input type="text" id="classificacao" placeholder="Classificação de idade">
+    <button id="btnCadastrar">Cadastrar</button>
+
+    <h3>Filtrar por Classificação</h3>
+    <input type="text" id="filtroClassificacao" placeholder="Classificação">
+    <button id="btnFiltrarClassificacao">Filtrar </button>
+    
+    <h3>Filtrar por Ano</h3>
+    <input type="text" id="filtroAno" placeholder="Ano">
+    <button id="btnFiltrarAno">Filtrar </button>
+
+    <h3>Lista de filmes</h3>
+    <p id="listaFilmes"></p>
+</main>
+</body>
+</html>
