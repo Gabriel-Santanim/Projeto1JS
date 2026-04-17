@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
+body {
+    background-color: #141414;
+    color: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+        background: rgba(20, 20, 20, 0.95);
+        padding: 25px;
+        border-radius: 8px;
+        width: 500px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+
+}
+h2 {
+    color: #ffffff; 
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #e5e5e5;
+    padding-left: 10px;
+    width: 100%;
+    max-width: 500px; 
+}
+
+input {
+    background-color: #333333; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    max-width: 500px;
+}
+
+#listaFilmes {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    line-height: 2; 
+    font-size: 1.1rem;
+    color: #b3b3b3; 
+    border: 1px solid #333;
+}
